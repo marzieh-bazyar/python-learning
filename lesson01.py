@@ -11,3 +11,15 @@ for player in players[:3]:
     print(player.title())
 for player in players[2:5]:
     print(player.title())
+players_2= players[:]
+print('My favorite players are:')
+print(players)
+print("\nMy friend's favorite players are:")
+print(players_2)
+players= ['Neymar', 'Ronaldo', 'Messi', 'Holland', 'Cortoa']
+players_2= players[:]
+players.append('James')
+print('My favorite players are:')
+print(players)
+print("\nMy friend's favorite players are:")
+print(players_2)

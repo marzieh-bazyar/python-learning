@@ -1,6 +1,13 @@
-¥ä
+ï¿½ï¿½
 py
 cd /d D:\pythonlearning
 copy con lesson01.py
 python
-print("ÓáÇã ÇíÊæä")
+print("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½")
+ a= 20
+>>> b= 87
+>>> a,b= b,a
+>>> print(a)
+87
+>>> print(b)
+20

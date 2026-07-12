@@ -23,3 +23,12 @@ print('My favorite players are:')
 print(players)
 print("\nMy friend's favorite players are:")
 print(players_2)
+foods = ("pizza", "rice", "stew", "hamburger", "spaghetti")
+for food in foods:
+    print(food.title())
+
+foods = ("pizza", "rice", "stew", "hamburger", "spaghetti")
+
+foods = ("soup", "pasta", "rice", "hamburger", "spaghetti")
+for food in foods:
+   print(food.title())

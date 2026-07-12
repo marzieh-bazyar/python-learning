@@ -32,3 +32,19 @@ foods = ("pizza", "rice", "stew", "hamburger", "spaghetti")
 foods = ("soup", "pasta", "rice", "hamburger", "spaghetti")
 for food in foods:
    print(food.title())
+colors = ['red', 'green', 'blue']
+for color in colors:
+   print(f' My favorite color is', {color.title()})
+print('These are my favorite colors') 
+
+pizza = ['peperoni', 'italian', 'vegetable', 'cheese']
+for pizza_1 in pizza:
+   print(pizza_1.title())
+
+animals = ['cat', 'tiger', 'leopard']
+for animal in animals:
+    print(animal.title())   
+for animal in animals:
+    print(f' A {animal} is cute')
+print(" Any of these animals belong to cat family ")
+ 

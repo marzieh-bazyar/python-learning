@@ -47,7 +47,7 @@ for animal in animals:
 for animal in animals:
     print(f' A {animal} is cute')
 print(" Any of these animals belong to cat family ")
- for number in range(1, 21):
+for number in range(1, 21):
     print(number)
 for number in range(1, 21):
     print(number, end= ',')
@@ -74,3 +74,31 @@ for cube in cubes:
 cubes = []
 cubes = [number ** 3 for number in range(1, 11)]
 print(cubes)
+print()
+names = ['Ali', 'keyvan', 'Mina', 'Maryam', 'Azadeh', 'zahra', 'Ida', 'sadaf']
+print(names)
+print("The first three items in the list are:")
+...
+for name in names[:3]:
+    print(name)
+    print()
+    print()
+    print()
+a = 12
+b = 3.5
+c = a + b
+d = 2 + 3j
+e = "7"
+f = a > int(e)
+g = str(c) + e
+
+print(a+b)
+
+c = a  + b
+print(c)
+
+f = a > int(e)
+print(f)
+
+g = str(c) + e
+print(g)
